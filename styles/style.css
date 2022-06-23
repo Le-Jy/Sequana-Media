@@ -39,6 +39,16 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
 	-webkit-text-fill-color: transparent;
 }
 
+.header-content .go-to-down {
+  position: absolute;
+  bottom: 20px;
+  font-size: 4vh;
+  color: white;
+  animation-name: toi;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+}
+
 .welcome-message {
     position: relative;
     display: flex;
@@ -50,6 +60,7 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
 }
 
 .section-content{
+  padding: 40px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -74,6 +85,15 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
   font-weight: normal ;
   color :#330867;
 }
+.section-content p2-section-content {
+  position: relative;
+  font-size: 1vw;
+  user-select: none;
+  text-transform: uppercase;
+  font-weight: normal ;
+  color :#330867;
+}
+
 
 .section-content p i {
   display: inline-block;
@@ -94,4 +114,10 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
   .section-content p{
     font-size: 2vh;
   }
+}
+
+@keyframes toi {
+  0% {bottom: 20px}
+  50% {bottom: 40px}
+  100% {bottom: 20px}
 }
