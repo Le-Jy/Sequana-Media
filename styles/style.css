@@ -66,7 +66,7 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
 }
 
 .section-content{
-  padding: 40px;
+  padding: 10 px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -124,7 +124,7 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
     font-size: 2vh;
   }
   .p2-section-content{
-    font-size: 1vh;
+    font-size: 1.4vh;
   }
 
 }
