@@ -122,8 +122,6 @@ footer{
   text-align: center;
   
   bottom:0;
-  
-  width:100%;
 
   margin-top: 10px;
   
@@ -189,6 +187,9 @@ footer{
   }
   .p2-section-content{
     font-size: 1.4vh;
+  }
+  footer{
+    height: 8%;
   }
   .footer-title h5 {
     font-size: 2vh;
