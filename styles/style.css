@@ -123,11 +123,11 @@ footer{
   
   bottom:0;
 
-  margin-top: 10px;
+  margin-top: 15px;
   
-  padding-top:5px;
+  padding-top:10px;
   
-  height: 13%;
+  height: 15%;
 
   width: 70%;
   margin-left: auto;
@@ -189,7 +189,7 @@ footer{
     font-size: 1.4vh;
   }
   footer{
-    height: 10%;
+    height: 9%;
   }
   .footer-title h5 {
     font-size: 2vh;
