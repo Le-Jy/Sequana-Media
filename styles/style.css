@@ -47,6 +47,12 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
 	-webkit-text-fill-color: transparent;
 }
 
+.header-content img{
+  border-radius: 50px;
+  width: 700px;
+  height: 400px;
+}
+
 .header-content .go-to-down {
   position: absolute;
   bottom: 20px;
@@ -72,7 +78,6 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
   position: relative;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   text-align: center;
 }
 
@@ -84,6 +89,15 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
   -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;  
 } 
+.section-content h3{
+  font-size: 3vw;
+  user-select: none;
+  text-transform: uppercase;
+  background-image: linear-gradient(15deg, #13547a 0%, #80d0c7 100%);
+  -webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;  
+
+}
 
 .section-content p{
   position: relative;
@@ -92,6 +106,16 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
   text-transform: uppercase;
   font-weight: normal ;
   color :#330867;
+}
+
+.section-content p1{
+  position: relative;
+  font-size: 1.5vw;
+  text-justify: auto;
+  user-select: none;
+  font-weight: normal;
+  color :#330867;
+
 }
 .p2-section-content {
   position: relative;
