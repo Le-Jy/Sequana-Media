@@ -14,14 +14,46 @@ html, body, footer {
 }
 
 body {
-  background-color: #e6dee9;
+  background-color: #bbbbbb;
 }
 
 h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, nav {
   padding: 0;
   margin: 0;
 }
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-image: linear-gradient(45deg, #7a0610 0%, #3f0602 100%);
+  border-radius: 50px;
+}
 
+li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+li:last-child {
+  border-right: none;
+}
+
+li a {
+  display: block;
+  color: #ddd6d6;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: rgb(160, 1, 1);
+}
+
+.active {
+  background-color: #4d0606;
+}
 
 
 .header-content {
@@ -32,7 +64,7 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
   align-items: center;
   justify-content: center;
   text-align: center;
-  background:linear-gradient(145deg, #84fab0, #8fd3f4);
+  background-image: linear-gradient(45deg, #7a0610 0%, #3f0602 100%);
   border-radius: 100px;
   margin-top: 10px;
   padding-top: 5px;
@@ -42,7 +74,7 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
   font-size: 7vw;
   user-select: none;
   text-transform: uppercase;
-  background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+  background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
   -webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 }
@@ -74,7 +106,7 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
 }
 
 .section-content{
-  padding: 10 px;
+  padding: 10px;
   position: relative;
   display: flex;
   flex-direction: column;
@@ -137,7 +169,7 @@ h1, h2, h3, h4, h5, h6, p, span, section, div, ul, li, ol, a, footer, header, na
 }
 footer{
 
-  background:linear-gradient(145deg, #84fab0, #8fd3f4);
+  background-image: linear-gradient(45deg, #7a0610 0%, #3f0602 100%);
   
   position:relative;
   flex-direction: column;
@@ -166,7 +198,7 @@ footer{
   .footer-title h5 {
     user-select: none;
     text-transform: uppercase;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
+    background-image: linear-gradient(120deg, #fdfbfb 0%, #ebedee 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent; 
     font-size: 4vh;
@@ -176,8 +208,9 @@ footer{
   }
   .footer-content p {
     font-size: 2vh;
-    color :#330867;
+    color :#ddd6d6;
     text-align: center;
+    text-decoration: none ;
 
   }
   .footer-content p a{
